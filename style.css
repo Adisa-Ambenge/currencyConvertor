@@ -1,12 +1,12 @@
 body {
     font-family:courier;
+    overflow-y: scroll;
     }
     h1 {
     text-align: center;
     color:black;
     font-family:courier;
     padding: 20px 0;
-    overflow-y: scroll;
     }
    
     .converter {

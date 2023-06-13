@@ -1,0 +1,89 @@
+<!-- Worldwide Currency Converter-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Worldwide Currency Converter</title>
+<link rel="stylesheet"  href="style.css"/>
+
+</head>
+<body>
+<h1>Worldwide Currency Converter</h1>
+<div class="converter">
+<div>
+<label for="money">Money:</label>
+<input type="number" id="money" placeholder="Enter Amount">
+</div>
+<div>
+<label for="from">From:</label>
+<select id="from">
+<option value="KES">Kenyan shilling</option> 
+<option value="UGX">Ugandan shilling</option>
+<option value="TZS">Tanzanian shilling</option>
+<option value="INR">INR</option>
+<option value="EUR">Euro</option>
+<option value="JPY">Japanese yen</option>
+<option value="AUD">Australian Dollar</option>
+<option value="(NZD)1">New Zealand dollar</option>
+<option value="HKD">Hong Kong dollar</option>
+<option value="CNH">Chinese renminbi</option>
+<option value="CHF">Swiss franc</option>
+<option value="CAD">Canadian dollar</option>
+<option value="USD">USD</option>
+<option value="GBP">Pound sterling</option>
+
+
+</select>
+</div>
+<div>
+<label for="to">To:</label>
+<select id="to">
+<option value="KES">Kenyan shilling</option>
+<option value="UGX">Ugandan shilling</option>
+<option value="TZS">Tanzanian shilling</option>
+<option value="INR">INR</option>
+<option value="EUR">Euro</option>
+<option value="JPY">Japanese yen</option>
+<option value="AUD">Australian Dollar</option>
+<option value="(NZD)1">New Zealand dollar</option>
+<option value="HKD">Hong Kong dollar</option>
+<option value="CNH">Chinese renminbi</option>
+<option value="CHF">Swiss franc</option>
+<option value="CAD">Canadian dollar</option>
+<option value="USD">USD</option>
+<option value="GBP">Pound sterling</option>
+
+
+</select>
+</div>
+<button onclick="convertCurrency()" id="convert-btn">Convert</button>
+</div>
+<div id="convertedamount">Result</div>
+<footer class="main-footer">
+    <div class="contact-links">
+       <ul class="profile-lists">
+          <a href="https://github.com/Adisa-Ambenge" target="_blank" class="btn contact-details">
+             <i class="fab fa-github"></i>
+             Github
+          </a>
+          <a href="https://www.linkedin.com/in/angela-adisa/" target="_blank" class="contact-details">
+             <i class="fab fa-linkedin"></i>
+             Linkedin
+          </a>
+          <a class="contact-details">
+             <i class="fas fa-at"></i> 
+             ambengeangela@gmail.com
+          </a>
+          <a class="contact-details">
+             <i class="fas fa-mobile-alt"></i> 
+             +254 713030706
+          </a>
+                          
+       </ul>
+       <div class="copyright">
+          <small>&copy; Copyright Angela Adisa 2023</small>
+       </div>
+    </div>
+ </footer>  
+<script src="index.js"></script>
+</body>
+</html>
